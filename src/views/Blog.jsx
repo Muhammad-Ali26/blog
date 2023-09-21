@@ -12,7 +12,7 @@ export default function Blog() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const { data } = useSelector((state) => state.api);
-  console.log("🚀 ~ file: Blog.jsx:14 ~ Blog ~ data:", data);
+
 
   useEffect(() => {
     dispatch(
