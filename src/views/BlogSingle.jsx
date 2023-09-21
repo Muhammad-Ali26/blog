@@ -87,6 +87,7 @@ export default function BlogSingle() {
             Phasellus consectetur sapien accumsan lectus tincidunt placerat.
             Etiam ornare nibh vel dui egestas, eu posuere metus convallis.
           </p>
+          
           <div className="flex items-center gap-6">
             <div className="w-1 h-20 bg-[#1E1B1B]"></div>
             <span className="text-base text-[#232536] font-semibold">
