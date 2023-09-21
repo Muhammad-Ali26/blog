@@ -27,7 +27,7 @@ export default function Blog() {
     return text;
   }
 
-  const blogDetails = (id, title, article, subtitle, image) => {
+  const blogDetails = (id, title, image, article, subtitle) => {
     navigate("/blog-single", {
       state: {
         blogId: id,

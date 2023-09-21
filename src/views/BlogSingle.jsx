@@ -27,18 +27,16 @@ export default function BlogSingle() {
 
           <div className="space-y-5">
             <h2 className="text-3xl lg:text-5xl text-black font-bold">
-              Should I Buy a New Car or Lease a New Car in 2021?
+              {blogData?.state?.blogTitle}
             </h2>
             <p className="text-base text-[#232536] font-semibold">
-              We provide a full range of front end mechanical repairs for all
-              makes and models of cars, no matter the cause. This includes, We
-              provide a full range of front end mechanical
+              {blogData?.state?.blogArticle}
             </p>
           </div>
         </div>
 
         <div className="w-[90%] lg:w-3/4 m-auto py-10">
-          <img src="/images/blog-single-one.png" alt="car" />
+          <img src={blogData?.state?.blogImage} alt="car" className="w-full object-contain"/>
         </div>
 
         <div className="w-3/4 lg:w-2/3 m-auto space-y-5">
