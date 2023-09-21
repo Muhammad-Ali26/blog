@@ -6,10 +6,7 @@ import { useLocation } from "react-router-dom";
 
 export default function BlogSingle() {
   const blogData = useLocation();
-  console.log(
-    "🚀 ~ file: BlogSingle.jsx:9 ~ BlogSingle ~ blogData:",
-    blogData?.state
-  );
+
   return (
     <>
       <Header />
