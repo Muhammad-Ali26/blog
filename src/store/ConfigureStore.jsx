@@ -1,4 +1,4 @@
-// @ts-nocheck
+
 import { configureStore } from '@reduxjs/toolkit';
 import apiReducer from '../store/slice/Slice';
 

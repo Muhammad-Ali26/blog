@@ -1,4 +1,3 @@
-// @ts-nocheck
 import React, { useEffect } from "react";
 import Header from "../components/Header";
 import { AiOutlineEye } from "react-icons/ai";
